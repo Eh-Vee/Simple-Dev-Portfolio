@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1 style="color: rgb(175, 188, 188)">Evelyn Vasquez</h1>
+        <p style="color: rgb(175, 188, 188)">(Eh-Vee)</p>
+        </br>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Computer Science Student</h2>
+        <p>Learning in class and online.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I'm a junior Computer Science major and U.S. Air Force veteran. I'm projected to graduate May 2027 with the
+            skills to become a full-stack developer. For now, my hobby is learning to build
+            modern, responsive websites using HTML, CSS, and JavaScript. I love watching code come to life in real time.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <br>
+        <div class="project-list">
+            <div class="project">
+                <!--add img/vid-->
+                <video id="EV-DEVS-vid" src="/media/EV-DEV vid.mp4" controls>
+                    <track kind="subtitles" src="/media/EV-DEVS-subtitles.vtt" srclang="en" label="English Subtitles"
+                        default>
+                    <track kind="descriptions" src="/media/EV-DEVS-descriptions.vtt" srclang="en"
+                        label="English Descriptions">
+                    Sorry, your browser does not support embedded videos.
+                </video>
+                <h4>Project #1</h4>
+                <p>I designed and built the EV-DEVS website using Squarespace to establish a professional web presence
+                    that reflects my brand as a developer. This project showcases a range of skills in web design and
+                    content strategy, including layout composition, responsive design, and user experience optimization.
+                    I customized the site’s structure and styling within the limitations of the Squarespace platform,
+                    demonstrating adaptability and a keen eye for clean, modern aesthetics. Key strengths highlighted in
+                    this project include information architecture, copywriting for clarity and engagement, and SEO
+                    fundamentals to support discoverability. The final result is a polished, user-friendly site that
+                    effectively communicates my background, technical skills, and development work.</p>
+            </div>
+            <div class="project">
+                <!--add img/vid-->
+                <video id="RPG-vid" src="/media/RPG.mp4" controls>
+                    <track kind="subtitles" src="/media/RPG-subtitles.vtt" srclang="en" label="English Subtitles"
+                        default>
+                    <track kind="descriptions" src="/media/RPG-descriptions.vtt" srclang="en"
+                        label="English Descriptions">
+                    Sorry, your browser does not support embedded videos.
+                </video>
+                <h4>Project #2</h4>
+                <p>I developed a simple role-playing game (RPG) that demonstrates a broad range of programming skills.
+                    The project highlights my understanding of control flow through branching storylines and turn-based
+                    combat, and it uses object-oriented programming to model characters, enemies, and items. I
+                    implemented data structures to manage inventory and game state, and incorporated randomization to
+                    simulate combat outcomes and an easter egg.</p>
+            </div>
+            <div class="project">
+                <!--add img/vid-->
+                <video id="rock-paper-scissors-vid" src="/media/rock-paper-scissors-vid.mp4"
+                    alt="screen recording of rock paper scissors game" controls>
+                    <track kind="subtitles" src="/media/rock-paper-scissors-subtitles.vtt" srclang="en"
+                        label="English Subtitles" default>
+                    <track kind="descriptions" src="/media/rock-paper-scissors-descriptions.vtt" srclang="en"
+                        label="English Descriptions">
+                    Sorry, your browser does not support embedded videos.
+                </video>
+                <h4>Project #3</h4>
+                <p>Developed an interactive Rock-Paper-Scissors game using HTML/CSS/JavaScript, implementing randomized
+                    computer
+                    logic, input validation, and dynamic score tracking. Demonstrated core programming concepts
+                    including control flow, user interaction, and algorithmic reasoning.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <br>
+        <div class="services">
+            <span>
+                <p><strong>Simple HTML/CSS/JavaScript Static Site</strong></p>
+            </span>
+
+            <span>
+                <p><em>Time consuming features not include (ie. SEO, content, custom graphics)</em></p>
+            </span>
+
+            <span>
+                <p><em>Help with hosting/domain setup. Will not do on your behalf.</em></p>
+            </span>
+
+            <span>
+                <p><em>Warm hand-off to explain how to make edits. No ongoing support.</em></p>
+            </span>
+
+
+            <br>
+            <span>
+                <p><strong>Responsive Multi-Page Site Using Frameworks/Libraries</strong></p>
+            </span>
+
+            <span>
+                <p><em>Time consuming features not included except basic SEO.</em></p>
+            </span>
+            <span>
+                <p><em>Help with hosting/domain setup and warm hand-off.</em></p>
+            </span>
+            <span>
+                <p><em>For charge ($50/mo): hosting/domain on your behalf with basic monthly support</em></p>
+            </span>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 id="contactHeading">Contact Me</h2>
+        <br>
+        <form id="contactForm" method="post" action="action_page.php">
+
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" autofocus required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea rows="5" id="message" name="message" required></textarea>
+
+            <br>
+            <button type="submit" value="Submit">Send</button>
+
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Evelyn Vasquez</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
