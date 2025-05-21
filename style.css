@@ -41,6 +41,15 @@ nav a:hover {
   color: #fff;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
 section {
   max-width: 800px;
   margin: auto;
@@ -59,24 +68,39 @@ section {
 .project-list {
   display: grid;
   gap: 1rem;
+  text-align: center;
 }
 
-.project {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  border-radius: 8px;
+div .project-p {
+  height:fit-content;
+  width: 800px;
 }
 
-video {
+.project1 {
   width: auto;
   height: 300px;
-  border: 1px solid white;
   border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: auto;
+  margin-bottom: 1rem;
 }
 
-#EV-DEVS-vid {
+.project2 {
+  width: 350px;
   height: auto;
-  width: 400px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: auto;
+  margin-bottom: 1rem;
+}
+
+.project3 {
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: auto;
+  margin-bottom: 1rem;
 }
 
 form {
